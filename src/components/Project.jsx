@@ -1,4 +1,7 @@
-
+import Clima1 from './Clima1.png'
+import Clima2 from './Clima2.png'
+import Calculadora1 from './Calculadora1.png'
+import Calculadora2 from './Calculadora2.png'
 
 
 export function Project (props) {
@@ -10,8 +13,14 @@ export function Project (props) {
                 </h2>
             </div>
             <div className="Proyecto__Imagenes">
-                <img src={`assets/${props.imagen1}.png`} style={{width: "250px"}} id="Imagen1"/>
-                <img src={`assets/${props.imagen2}.png`} style={{width: "100px"}}/>
+                <img src={
+                    props.imagen1 == "Calculadora1" ? Calculadora1 : 
+                    props.imagen1 == "Clima1" ? Clima1 : <></>
+                } style={{width: "250px"}} id="Imagen1"/>
+                <img src={
+                    props.imagen2 == "Calculadora2" ? Calculadora2 : 
+                    props.imagen2 == "Clima2" ? Clima2 : <></>
+                } style={{width: "100px"}}/>
             </div>
             <div className="Proyecto__Descripcion">
                 <p>

@@ -15,19 +15,19 @@ export function MainPrincipal () {
             <SeccionesMain titulo ="Certificados" descripcion="
                 Esta sección es para mostrar los certificados que obtuve hasta el momento de hoy, para poder demostrar mis conocimientos." id="Descripcion_Certificado">
                     <div className="certificados__container">
-                        <CertificadoMain img="AP1.png" empresa="Aprende Programando, Ministro de Educacion de Argentina" nivel="Desarrollo Web 1" tecnologia1="HTML" tecnologia2="CSS">
+                        <CertificadoMain img="AP1" empresa="Aprende Programando, Ministro de Educacion de Argentina" nivel="Desarrollo Web 1" tecnologia1="HTML" tecnologia2="CSS">
                         </CertificadoMain>
 
-                        <CertificadoMain img="AP2.png" nivel="Desarrollo Web 2" empresa="Aprende Programando, Ministro de Educacion de Argentina"  tecnologia3="JavaScript">
+                        <CertificadoMain img="AP2" nivel="Desarrollo Web 2" empresa="Aprende Programando, Ministro de Educacion de Argentina"  tecnologia3="JavaScript">
                         </CertificadoMain>
 
-                        <CertificadoMain img="Google 1.png" nivel="Desarrollo web 1" empresa="Google"  codigo="NGD UT5 ZN7"
+                        <CertificadoMain img="Google1" nivel="Desarrollo web 1" empresa="Google"  codigo="NGD UT5 ZN7"
                         tecnologia1="HTML"/>
 
-                        <CertificadoMain img="Google 2.png" nivel="Desarrollo web 2" empresa="Google" codigo="RFS VBG EPV"
+                        <CertificadoMain img="Google2" nivel="Desarrollo web 2" empresa="Google" codigo="RFS VBG EPV"
                         tecnologia1="HTML" tecnologia2="CSS" />
 
-                        <CertificadoMain img="Certificado UX UI.png" nivel="Diseño UX/UI" empresa="Aprende Programando, Ministro de Educacion de Argentina"/>
+                        <CertificadoMain img="CertificadoUXUI" nivel="Diseño UX/UI" empresa="Aprende Programando, Ministro de Educacion de Argentina"/>
 
                     </div> 
             </SeccionesMain>

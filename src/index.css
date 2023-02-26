@@ -185,7 +185,7 @@ header {
 }
 /*Si la pagina es "projects", se le agrega la clase al contenedor, le pongo una imagen de fondo y la muevo.*/
 .ProyectosIMG {
-    background-image: url(/src/assets/Proyectos.jpg);
+    background-image: url(/src/components/Proyectos.jpg);
     background-size: cover;
     background-position-y: 40px;
     animation: MoverIMGHeaderBackground 7s infinite;

@@ -1,6 +1,8 @@
 
 import {NavBar} from './../components/NavBar'
 import {TextoHeader} from './TextoHeader'
+import Inicio from './Inicio.jpg'
+import Proyectos from './Proyectos.jpg'
 
 
 export function Header (props) {
@@ -27,8 +29,8 @@ export function Header (props) {
             <TextoHeader pagina={props.pagina}/>
             <div id="IMGCONTAINER">
                 <img src={
-                    props.pagina == "Home" ? "assets/Inicio.jpg"
-                : "assets/Proyectos.jpg"}  style= { props.pagina == "Projects" ?{animation: 'none'} : {}}
+                    props.pagina == "Home" ? Inicio
+                : Proyectos}  style= { props.pagina == "Projects" ?{animation: 'none'} : {}}
                 alt="" id="HeaderIMG"/>
             </div>
             <WaveDeAbajo />
