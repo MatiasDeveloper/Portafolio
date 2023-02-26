@@ -9,7 +9,7 @@ export function MainPrincipal () {
         <main>
             <SeccionesMain titulo="Sobre Mi" descripcion="
                 Me llamo Matias Latorre, soy Front-End Developer.
-                Comencé a estudiar este ámbito porque siempre me llamó la atención las páginas web, luego de estudiar y practicar lo suficiente me di cuenta que me terminó gustando, por lo que se me ocurrió la idea de monetizar mis trabajos para poder trabajar de lo que más me gusta. Siempre me mantengo estudiando y aprendiendo constantemente para estar lo más actualizado posible a las tendencias nuevas, como diseños minimalistas, diseños coloridos, etc. En un futuro me gustaría adquirir la experiencia suficiente para llegar a ser Full Stack Developer." id="SobreMi"/>
+                Comencé a estudiar este ámbito porque siempre me llamó la atención las páginas web, luego de estudiar y practicar lo suficiente me di cuenta que me terminó gustando, por lo que se me ocurrió la idea de monetizar mis desarrollos para poder trabajar de lo que más me gusta. Siempre me mantengo estudiando y aprendiendo constantemente para estar lo más actualizado posible a las tendencias nuevas, como diseños minimalistas, diseños coloridos, etc. En un futuro me gustaría adquirir la experiencia suficiente para llegar a ser Full Stack Developer." id="SobreMi"/>
             <SeccionesMain titulo="Trabajo" descripcion="
                 Actualmente me encuentro abierto a cualquier oferta laboral, puedes contactarme por algunas de mis redes sociales para contarme tu proyecto, acordar un precio y empezar el proyecto ahora."  />
             <SeccionesMain titulo ="Certificados" descripcion="
