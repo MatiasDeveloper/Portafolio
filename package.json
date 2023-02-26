@@ -2,7 +2,7 @@
   "name": "portafoliomaty",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/MatiasDeveloper/Portafolio",
+  "homepage": "https://github.com/MatiassLatorre/Portafolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
